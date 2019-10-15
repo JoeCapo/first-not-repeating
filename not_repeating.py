@@ -16,4 +16,4 @@ def first_not_repeating(str):
     for char in charList:
         if charCounter[char] == 1:
             return char
-    return ""
+    return "_" 
